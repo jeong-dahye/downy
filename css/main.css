@@ -3,17 +3,22 @@
 /*mainSlider*/
 .mainSlider{
     width:100%;
+    height:970px;
     overflow:hidden;
     position:relative;
     color:#fff;
     text-align:right;
 }
-.mainSlider img{}
+.mainSlider img{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
 
 .sliderTxt{
     position:absolute;
     right:50%;
-    margin-right:-600px;
+    margin-right:-560px;
     top:375px;
 }
 .mainSlider h3{
